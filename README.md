@@ -84,3 +84,7 @@ Here are my terminal settings as a reference, but feel free to experiment with t
   ]
 }
 ```
+___
+Example
+![image](https://user-images.githubusercontent.com/48553432/144937379-704ab54b-cb73-401c-9adc-57f62a4c6fe9.png)
+
