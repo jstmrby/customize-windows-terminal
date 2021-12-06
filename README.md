@@ -86,5 +86,6 @@ Here are my terminal settings as a reference, but feel free to experiment with t
 ```
 ___
 Example
-![image](https://user-images.githubusercontent.com/48553432/144937379-704ab54b-cb73-401c-9adc-57f62a4c6fe9.png)
+![image](https://user-images.githubusercontent.com/48553432/144937646-59db520c-6db9-4c1d-ac25-0d7cd9367909.png)
+
 
