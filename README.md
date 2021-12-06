@@ -51,7 +51,7 @@ If you already have it, click the downward chevron next to the new tab (`+`) ico
 
 Here are my terminal settings as a reference, but feel free to experiment with the settings.
 
-```json
+```jsonc
 "profiles": {
   "defaults": {},
   "list": [
