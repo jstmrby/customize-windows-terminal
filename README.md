@@ -88,4 +88,18 @@ ___
 ## Example
 ![image](https://user-images.githubusercontent.com/48553432/144937646-59db520c-6db9-4c1d-ac25-0d7cd9367909.png)
 
+# Customize your WSL terminal prompt
+Just copy this and paste it to the end of your `.bashrc` file:
+```
+parse_git_branch() {
+  if [ -d .git ]; then
+      if expr length + "$(git status -s)" 2>&1 > /dev/null; then
+          echo -e "\033[0;33m$(__git_ps1)\033[0m";
+      else
+          echo -e "\033[1;36m$(__git_ps1)\033[0m";
+      fi;
+  fi
+}
 
+PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u @ \[\033[01;34m\]\w\[\033[00m\]\$(parse_git_branch) \[\033[01;32m\]\n └─ \$\[\033[00m\] "
+```
